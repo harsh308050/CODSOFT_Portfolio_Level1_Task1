@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harsh Parmar</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mitr:wght@200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Pacifico&display=swap"
+        rel="stylesheet">
+    <script src="script.js" async></script>
+</head>
+
+<body>
+    <nav id="desk-nav">
+        <div class="navbar">
+            <div class="logo">Harsh Parmar</div>
+            <div>
+                <ul id="navigation">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <nav id="ham-nav">
+        <div class="logo">Harsh Parmar</div>
+        <div class="ham-menu">
+            <div class="ham-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-navs">
+
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+
+
+    <section id="portfolio">
+        <div class="profilePhoto">
+            <img src="assets/profile_photo.jpg" alt="MyImage" style="border-radius:50% ;">
+        </div>
+        <div class="ProfileSummary">
+            <div class="title">
+                <p class="summary_p1">
+                    Hey, I'm
+                </p>
+                <h1 class="summary_title">Harsh Parmar</h1>
+            </div>
+
+            <p class="summary_p2">Frontend Developer</p>
+            <div class="resume-btn">
+                <button class="btn1" onclick="window.open('./assets/HarshResume.pdf')">Download Resume</button>
+                <button class="btn2" onclick="location.href='#contact'">Contact Me</button>
+            </div>
+            <div class="socials">
+                <img src="./assets/linkedin.png" alt="linkedinProfile" class="icon"
+                    onclick='location.href="https://www.linkedin.com/in/harsh308050/"'>
+                <img src="./assets/github.png" alt="githubProfile" class="icon"
+                    onclick='location.href="https://github.com/Harsh308050/"'>
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <div class="aboutSectionHead">
+            <p class="about_p1">Get To Know More</p>
+            <h1 class="about_title">About Me</h1>
+        </div>
+        <div class="about_section">
+            <div class="aboutImage">
+                <img src="assets/aboutimg.png" alt="aboutImage" class="aboutPhoto">
+            </div>
+            <div class="about_details">
+                <div class="aboutDetailsSection">
+                    <div class="aboutDetails">
+                        <img src="assets/Internship.png" alt="expreienceimage" class="icon">
+                        <h2 class="details_title">Experience</h2>
+
+                        <div class="internshipDetails">
+                            <h3>Intern- Flutter Developer</h3>
+                            <p>OPUS Technologies, Surat</p>
+                        </div>
+                    </div>
+                    <div class="aboutDetails">
+                        <img src="assets/education.png" alt="expreienceimage" class="icon">
+                        <h2 class="details_title">Education</h2>
+                        <div class="educationDetails">
+                            <ul>
+                                <h3>
+                                    <li>Bachelor of Technology</li>
+                                </h3>
+                                <h3>
+                                    <li>Diploama</li>
+                                </h3>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="aboutSummary">
+                    <p>Aspiring Front-end developer and Flutter developer with UI/UX skills. Completed significant
+                        projects demonstrating
+                        proficiency in Flutter, Firebase, and frontend technologies. Seeking an internship in computer
+                        science fields, including
+                        UI/UX design, frontend web development, or Flutter development, to apply my skills in creating
+                        user-centric, innovative
+                        digital solutions.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <img src="assets/arrow.png" alt="arrow" class="icon arrow" onclick="location.href='./#skills'">
+    </section>
+
+
+    <section id="skills">
+        <div class="skillsHead">
+            <p class="skill_p1">Explore My</p>
+            <h1 class="skill_title">Skills</h1>
+        </div>
+        <div class="skillsList">
+            <div class="skillsContainer">
+                <div class="skillsDetails">
+                    <h3 class="skills_sub_title">Programming Languages</h3>
+                    <div class="skillsArticle">
+                        <article>
+                            <img src="assets/skills/c.png" alt="" class="icon2">
+                            <p>C</p>
+                        </article>
+                        <article>
+                            <img src="assets/skills/c++.png" alt="" class="icon2">
+                            <p>CPP</p>
+                        </article>
+                        <article>
+                            <img src="assets/skills/java.png" alt="" class="icon2">
+                            <p>Java</p>
+                        </article>
+                        <article>
+                            <img src="assets/skills/python.png" alt="" class="icon2">
+                            <p>Python</p>
+                        </article>
+                        <article>
+                            <img src="assets/skills/dart.png" alt="" class="icon2">
+                            <p>Dart</p>
+                        </article>
+                    </div>
+                </div>
+                <div class="skillsDetails">
+                    <h3 class="skills_sub_title">Frontend Tools</h3>
+                    <div class="skillsArticle">
+                        <article>
+                            <img src="assets/skills/html-icon.png" alt="" class="icon2">
+                            <p>HTML</p>
+                        </article>
+                        <article>
+                            <img src="assets/skills/css-icon.png" alt="" class="icon2">
+                            <p>CSS</p>
+                        </article>
+                        <article>
+                            <img src="assets/skills/javascript.png" alt="" class="icon2">
+                            <p>JavaScript</p>
+                        </article>
+                        <article>
+                            <img src="assets/skills/sass.png" alt="" class="icon2">
+                            <p>SCSS</p>
+                        </article>
+                    </div>
+                </div>
+                <div class="skillsDetails">
+                    <h3 class="skills_sub_title">Frameworks</h3>
+                    <div class="skillsArticle">
+                        <article>
+                            <img src="assets/skills/flutter-icon.png" alt="" class="icon2">
+                            <p>Flutter</p>
+                        </article>
+                        <article>
+                            <img src="assets/skills/Bootstrap.png" alt="" class="icon2">
+                            <p>Bootstrap</p>
+                        </article>
+                        <article>
+                            <img src="assets/skills/tailwind.png" alt="" class="icon2">
+                            <p>TailwindCSS</p>
+                        </article>
+                    </div>
+                </div>
+                <div class="skillsDetails">
+                    <h3 class="skills_sub_title">Databases</h3>
+                    <div class="skillsArticle">
+                        <article>
+                            <img src="assets/skills/mysql-icon.png" alt="" class="icon2">
+                            <p>MySQL</p>
+                        </article>
+                        <article>
+                            <img src="assets/skills/Firebase-logo.png" alt="" class="icon2">
+                            <p>Firebase</p>
+                        </article>
+                    </div>
+                </div>
+                <div class="skillsDetails">
+                    <h3 class="skills_sub_title">Softwares & Tools</h3>
+                    <div class="skillsArticle">
+                        <article>
+                            <img src="assets/skills/visual-studio-code-icon.png" alt="" class="icon2">
+                            <p>VSCode</p>
+                        </article>
+                        <article>
+                            <img src="assets/skills/figma-icon.png" alt="" class="icon2">
+                            <p>Figma</p>
+                        </article>
+                        <article>
+                            <img src="assets/skills/framer.png" alt="" class="icon2">
+                            <p>Framer</p>
+                        </article>
+                        <article>
+                            <img src="assets/skills/wordpress.png" alt="" class="icon2">
+                            <p>Wordpress</p>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="projectsHead">
+            <p class="project_p1">Browse My Recent</p>
+            <h1 class="projects_title">Projects</h1>
+        </div>
+        <div class="projectsList">
+            <div class="projectDetailsSection">
+                <div class="projectContainer">
+                    <div class="projectDetails">
+                        <h3 class="project_sub_title">Towed</h3>
+                        <div class="projectArticle">
+                            <img src="assets/projects/towedBanner.jpg" alt="Towedd" class="project_img">
+                            <p>Developed a mobile application to help users locate towed vehicles, Implemented real-time
+                                database functionality.</p>
+                            <div class="projectLink">
+                                <button class="btn2 "
+                                    onclick="location.href='https://github.com/harsh308050/Towedd'">Github</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="projectDetails">
+                        <h3 class="project_sub_title">Let's Chat</h3>
+                        <div class="projectArticle">
+                            <img src="assets/projects/letschatbanner.jpg" alt="LetsChat" class="project_img">
+                            <p>Built a scalable chat app supporting multiple users and real-time message
+                                synchronization using firebase.
+                            </p>
+                            <div class="projectLink">
+                                <button class="btn2 "
+                                    onclick="location.href='https://github.com/harsh308050/Chatter'">Github</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="projectDetails">
+                        <h3 class="project_sub_title">IRCTC Redesign</h3>
+                        <div class="projectArticle">
+                            <img src="assets/projects/irctcRAW.png" alt="IRCTC" class="project_img">
+                            <p>Conducted user research and created intuitive wireframes, Redesigned interface of IRCTC
+                                application.</p>
+                            <div class="projectLink">
+                                <button class="btn2 "
+                                    onclick="location.href='https://www.figma.com/design/YXVCq8eWJiTARwXSkaPxky/IRCTC?node-id=0-1&t=0DwosmT9O39hrQgn-1'">Figma</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="contact">
+        <div class="contactHead">
+            <p class="contact_p1">Get in Touch</p>
+            <h1 class="contact_title">Contact Me</h1>
+        </div>
+        <div class="contactInfo">
+            <div class="contactInfoContainer">
+                <div class="contactform">
+                    <form>
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="Your Name">
+
+                        <label for="lname">Email</label>
+                        <input type="email" id="email" name="emailid" placeholder="Your Email ID">
+
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" placeholder="Type your message"></textarea>
+
+                        <input type="button" value="Submit" class="btn1">
+                    </form>
+                </div>
+                <div class="contactImg">
+                    <img src="assets/contact.png" alt="contactImg" class="contactPhoto">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <hr>
+        <div class="navbar">
+            <ul id="navigation">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+        <p>Copyright &#169; 2024 Harsh Parmar. All Rights Reserved</p>
+    </footer>
+</body>
+
+</html>
